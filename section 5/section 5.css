@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0; 
+}
+div{
+        width: 600px;
+        height: 400px;
+        background-color: rgb(11, 115, 138);
+    display: grid;
+    grid-template-columns:200px 200px 200PX ;
+    grid-template-rows: 80px 220px 80Px ;
+    /* column-gap: 20px;
+    row-gap: 20px;
+    gap: 20px; */
+
+}
+nav{
+    background-color: yellow;
+    grid-column: 1/4;
+}
+section{
+    background-color: blue;
+}
+aside{
+    background-color: blueviolet;
+}
+footer{
+    background-color: aquamarine;
+    grid-column: 1/4;
+}
+p{
+    outline: black solid;
+    
+}
+
